@@ -1,0 +1,75 @@
+:root {
+  --Success: #1cce28;
+  --LimeGreen: #60dd49;
+  --DangerL: #fc047f;
+  --Danger: #fc2366;
+  --DangerS: #cc1850;
+  --White: #fff;
+  --Warning: #ffed38;
+  --WarningS: #ffd816;
+}
+.btn-success {
+  background-color: var(--LimeGreen) !important;
+  border-color: var(--LimeGreen) !important;
+  box-shadow: 3px 3px 6px rgba(0,0,0,0.3) !important;
+}
+.btn-success:hover {
+  background-color: var(--Success) !important;
+  border-color: var(--Success) !important;
+}
+.btn-danger {
+  background-color: var(--DangerL) !important;
+  border-color: var(--DangerL) !important;
+  box-shadow: 3px 3px 6px rgba(0,0,0,0.3) !important;
+}
+.btn-danger:hover {
+  background-color: var(--Danger) !important;
+  border-color: var(--Danger) !important;
+}
+a.navbar-brand {
+  filter: drop-shadow(0 0 4px #000) !important;
+  color: var(--White) !important;
+}
+.navbar {
+  background-color: var(--Danger);
+}
+.username {
+  filter: drop-shadow(0 0 4px #000) !important;
+  color: var(--White) !important;
+}
+.logout {
+  box-shadow: 4px 4px rgba(136,136,136,0.8);
+}
+.contorno {
+  box-shadow: 3px 3px 6px rgba(0,0,0,0.3) !important;
+  border: 1px solid rgba(0,0,0,0.2);
+}
+@media (min-width: 576px) {
+  .bars {
+    filter: drop-shadow(0 0 4px #000) !important;
+    color: var(--White) !important;
+  }
+  .navbar-toggler {
+    border-color: rgba(255,255,255,0.5) !important;
+  }
+  .navbar-ligth {
+    border-color: rgba(255,255,255,0.5) !important;
+  }
+  .logout {
+    background-color: var(--Danger);
+    color: #fff;
+    box-shadow: none;
+    border: 0;
+  }
+  .logout:hover {
+    background-color: var(--DangerS);
+    color: var(--White);
+  }
+  .dropdown-item:hover {
+    background-color: var(--DangerS) !important;
+    color: var(--White) !important;
+  }
+  .dropdown-item:focus {
+    background-color: var(--DangerS) !important;
+  }
+}
